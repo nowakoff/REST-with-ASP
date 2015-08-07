@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "..\SofiApp\Data\Data.csproj", "{1666796F-0BC9-4872-8283-031AD6BDAE59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkMe", "MarkMe\MarkMe.csproj", "{A3C79B45-7C43-406A-AE4E-096C9951526F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoWeb", "..\..\..\..\Downloads\demoWeb (1)\demoWeb\demoWeb\demoWeb.csproj", "{F40D2FE4-A458-4D08-911B-15F17B7D4103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1666796F-0BC9-4872-8283-031AD6BDAE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1666796F-0BC9-4872-8283-031AD6BDAE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1666796F-0BC9-4872-8283-031AD6BDAE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1666796F-0BC9-4872-8283-031AD6BDAE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C79B45-7C43-406A-AE4E-096C9951526F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C79B45-7C43-406A-AE4E-096C9951526F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C79B45-7C43-406A-AE4E-096C9951526F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C79B45-7C43-406A-AE4E-096C9951526F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40D2FE4-A458-4D08-911B-15F17B7D4103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40D2FE4-A458-4D08-911B-15F17B7D4103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40D2FE4-A458-4D08-911B-15F17B7D4103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40D2FE4-A458-4D08-911B-15F17B7D4103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

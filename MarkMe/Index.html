@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookmarkMe!</title>
+    <link href="Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+    <link href="Content/Site.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
+    <link href="Content/Index.css" rel="stylesheet" />
+</head>
+<body>
+   
+
+    <!--<div class="container">
+        <button class="btn btn-info btn-lg">Hello</button>
+        <div id="result"></div>-->
+        
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Create New</button>
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Url</th>
+                    <th>User</th>
+                    <th>Date</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+
+                </tr>
+            </thead>
+            <tbody id="loopRows"></tbody>
+        </table>
+
+
+       
+        <!--CREATE NEW MODAL-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">New Bookmark</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form id="postBookmark">
+                            <div class="form-group">
+                                <label for="recipient-name" class="control-label">Title:</label>
+                                <input name="Title" type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="control-label">Url:</label>
+                                <input name="Url" class="form-control" id="message-text">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="control-label">User:</label>
+                                <input name="User" type="text" class="form-control" id="message-text">
+                                <input class="btn btn-primary" type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+   
+    <script src="Scripts/templates.js"></script>
+    <script src="Scripts/modal.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="Scripts/CreateTable.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/bookmarkajax.js"></script>
+</body>
+</html>
